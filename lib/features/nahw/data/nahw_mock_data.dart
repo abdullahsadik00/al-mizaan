@@ -389,7 +389,7 @@ const Lesson _marifaAndNakira = Lesson(
           termArabic: 'مُعَرَّف بِالإِضَافَة',
           body:
               'An ism made definite by being linked to a definite noun in '
-              'a possessive construct — e.g. قَلَمُ زَيْدٍ (Zayd's pen).',
+              'a possessive construct — e.g. قَلَمُ زَيْدٍ (Zayd\'s pen).',
         ),
         Definition(
           term: '7 · Muʿarraf bi-l-Nidāʾ (Through Address)',
@@ -405,47 +405,47 @@ const Lesson _marifaAndNakira = Lesson(
       title: 'Spot the Type',
       examples: [
         ExampleItem(
-          arabic = 'هُوَ',
-          transliteration = 'huwa',
-          translation = 'he',
-          note = 'Ism Ḍamīr — pronoun for an absent male.',
+          arabic: 'هُوَ',
+          transliteration: 'huwa',
+          translation: 'he',
+          note: 'Ism Ḍamīr — pronoun for an absent male.',
         ),
         ExampleItem(
-          arabic = 'مَكَّةُ',
-          transliteration = 'makkah',
-          translation = 'Mecca',
-          note = 'Ism ʿAlam — proper name of a place.',
+          arabic: 'مَكَّةُ',
+          transliteration: 'makkah',
+          translation: 'Mecca',
+          note: 'Ism ʿAlam — proper name of a place.',
         ),
         ExampleItem(
-          arabic = 'هَذَا الكِتَابُ',
-          transliteration = 'hādha l-kitāb',
-          translation = 'this book',
-          note = 'Ism Ishāra — هَذَا points to something near.',
+          arabic: 'هَذَا الكِتَابُ',
+          transliteration: 'hādha l-kitāb',
+          translation: 'this book',
+          note: 'Ism Ishāra — هَذَا points to something near.',
         ),
         ExampleItem(
-          arabic = 'اَلَّذِي جَاءَ',
-          transliteration = 'alladhī jāʾa',
-          translation = 'the one who came',
-          note = 'Ism Mawṣūl — links "came" back to a specific person.',
+          arabic: 'اَلَّذِي جَاءَ',
+          transliteration: 'alladhī jāʾa',
+          translation: 'the one who came',
+          note: 'Ism Mawṣūl — links "came" back to a specific person.',
         ),
         ExampleItem(
-          arabic = 'اَلْمَسْجِدُ',
-          transliteration = 'al-masjidu',
-          translation = 'the mosque',
-          note = 'Muʿarraf bi-l-Lām — "Al-" makes it definite.',
+          arabic: 'اَلْمَسْجِدُ',
+          transliteration: 'al-masjidu',
+          translation: 'the mosque',
+          note: 'Muʿarraf bi-l-Lām — "Al-" makes it definite.',
         ),
         ExampleItem(
-          arabic = 'كِتَابُ اللهِ',
-          transliteration = 'kitābu llāh',
-          translation = 'the Book of Allah',
-          note = 'Muʿarraf bi-l-Iḍāfah — definite through possession.',
+          arabic: 'كِتَابُ اللهِ',
+          transliteration: 'kitābu llāh',
+          translation: 'the Book of Allah',
+          note: 'Muʿarraf bi-l-Iḍāfah — definite through possession.',
         ),
       ],
     ),
     LessonSection(
-      kind = SectionKind.rules,
-      title = 'Remember',
-      rules = [
+      kind: SectionKind.rules,
+      title: 'Remember',
+      rules: [
         const RuleItem(
           statement:
               'Every ism is either maʿrifa (definite/specific) or nakira '

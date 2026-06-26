@@ -34,6 +34,29 @@ class RuleItem {
   final String? arabicExemplar;
 }
 
+/// A formal definition (تَعْرِيف): a term and its meaning.
+///
+/// Khulāṣat-un-Naḥw teaches almost entirely through formal definitions, so a
+/// definition is a first-class part of a lesson. Rendered by the bespoke
+/// `MizanDefinitionBox` widget.
+@immutable
+class Definition {
+  const Definition({
+    required this.term,
+    required this.body,
+    this.termArabic,
+  });
+
+  /// The transliterated/English term, e.g. "Naḥw".
+  final String term;
+
+  /// The Arabic form of the term, e.g. "النَّحْو" (Amiri, RTL).
+  final String? termArabic;
+
+  /// The English explanation of the term.
+  final String body;
+}
+
 /// One pedagogical block within a lesson.
 @immutable
 class LessonSection {
@@ -41,6 +64,7 @@ class LessonSection {
     required this.kind,
     required this.title,
     this.body,
+    this.definitions = const [],
     this.examples = const [],
     this.rules = const [],
   });
@@ -50,6 +74,9 @@ class LessonSection {
 
   /// Free-form English explanation (Concept sections).
   final String? body;
+
+  /// Formal definitions surfaced in this section (Concept sections).
+  final List<Definition> definitions;
 
   final List<ExampleItem> examples;
   final List<RuleItem> rules;

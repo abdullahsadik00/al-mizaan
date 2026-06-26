@@ -51,13 +51,13 @@ abstract final class AppTheme {
       ),
 
       // Cards: hairline border, large radius, zero elevation.
-      cardTheme: CardThemeData(
+      cardTheme: const CardThemeData(
         color: AppColors.surface,
         elevation: 0,
         margin: EdgeInsets.zero,
         shape: RoundedRectangleBorder(
           borderRadius: AppRadius.card,
-          side: const BorderSide(
+          side: BorderSide(
             color: AppColors.border,
             width: AppBorders.hairline,
           ),

@@ -59,7 +59,7 @@ class _ConjugationTableState extends ConsumerState<ConjugationTable> {
   @override
   Widget build(BuildContext context) {
     final root = widget.root;
-    final scales = SarfScale.values;
+    const scales = SarfScale.values;
     final selected = ref.watch(selectedScaleProvider);
 
     return ClipRRect(
